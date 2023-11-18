@@ -1,0 +1,116 @@
+#contact {
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg1.svg), url(../img/bg2.svg);
+    background-position:
+        left top 120px,
+        right bottom;
+    padding-bottom: 120px;
+}
+.contact__title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px; /* 156.25% */
+    margin-bottom: 16px;
+}
+.contact__sub {
+    color: #f67e7e;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 8px;
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        background-repeat: no-repeat;
+        background-image: url(../img/icon1.svg);
+    }
+}
+.anth1 {
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        background-repeat: no-repeat;
+        background-image: url(../img/icon2.svg);
+    }
+}
+.anth2 {
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        background-repeat: no-repeat;
+        background-image: url(../img/icon3.svg);
+    }
+}
+.contact__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.contact__content {
+    margin-left: 118px;
+}
+
+.contact__container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.contact__form {
+    max-width: 540px;
+    display: inline-block;
+    width: 100%;
+}
+.contact__user {
+    display: block;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding-bottom: 17px;
+    padding-left: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+    margin-bottom: 24px;
+    outline: none;
+    &::placeholder {
+        color: #99b8bb;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+        letter-spacing: -0.115px;
+        flex-shrink: 1;
+    }
+    &:hover {
+        border-color: #79c8c7;
+    }
+}
+#user__message {
+    padding-bottom: 58px;
+}
+.contact__btn {
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #004047;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 11px 32px;
+    padding-top: 9px;
+}
